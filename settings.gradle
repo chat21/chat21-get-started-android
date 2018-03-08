@@ -1,1 +1,4 @@
 include ':app'
+
+include ':chat'
+project(':chat').projectDir = new File('/Users/stefanodp91/Documents/Workspace/Android/chat21/dev-chat21-v2-android-sdk/chat21/')
