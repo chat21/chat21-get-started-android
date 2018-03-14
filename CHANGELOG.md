@@ -1,3 +1,6 @@
+# v.: 1.0.4 b.: 5
+- updated with last library changes (chat sdk v.: 1.0.5 b.:32)
+
 # v.: 1.0.3 b.: 4
 - fixed glide crash
 

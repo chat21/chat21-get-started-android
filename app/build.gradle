@@ -6,8 +6,8 @@ android {
         applicationId "it.frontiere21.mychat"
         minSdkVersion 19
         targetSdkVersion 26
-        versionCode 4
-        versionName "1.0.3"
+        versionCode 5
+        versionName "1.0.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         multiDexEnabled true
@@ -32,7 +32,7 @@ dependencies {
     compile 'com.android.support:multidex:1.0.1'
     compile "com.google.android.gms:play-services:11.8.0"
     compile 'com.android.support:design:26.1.0'
-    compile 'org.chat21.android:chat21:1.0.3'
+    compile 'org.chat21.android:chat21:1.0.5'
 //    implementation project(':chat')
     compile 'com.vanniktech:emoji-ios:0.5.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
