@@ -26,11 +26,12 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onChatLoginSuccess(IChatUser currentUser) {
                         ChatManager.getInstance().createContactFor(currentUser.getId(), currentUser.getEmail(),
-                                "john", "Nashville", new OnContactCreatedCallback() {
+                                "John", "Nashville", new OnContactCreatedCallback() {
                                     @Override
                                     public void onContactCreatedSuccess(ChatRuntimeException exception) {
                                         if (exception == null) {
-                                            ChatUI.getInstance().openConversationsListActivity();
+//                                            ChatUI.getInstance().openConversationsListActivity();
+                                            ChatUI.getInstance().openConversationMessagesActivity("81gLZhYmpTZM0GGuUI9ovD7RaCZ2", "Chuck Norris");
                                         } else {
                                             // TODO: handle the exception
                                         }

@@ -1,3 +1,6 @@
+# v.: 1.0.5 b.: 6
+- updated with last library changes (chat sdk v.: 1.0.10 b.:38)
+
 # v.: 1.0.4 b.: 5
 - updated with last library changes (chat sdk v.: 1.0.5 b.:32)
 
