@@ -1,3 +1,5 @@
+Chat21 is the core of the open source livechat platform [Tiledesk.com](http://www.tiledesk.com).
+
 # get-started-tutorial-android
 The Android Get started tutorial
 
